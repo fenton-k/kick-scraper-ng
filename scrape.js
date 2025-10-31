@@ -1,49 +1,73 @@
 import { graphqlRequest } from "./graphql.js";
 import { saveOrUpdateProjects } from "./files.js";
-import { enrichNewProjects } from "./enrich.js";
 import { sleep } from "./utils.js";
 import fs from "fs/promises";
 import path from "path";
 
-const query2Path = path.resolve("./queries/query2.gql");
-const query2 = await fs.readFile(query2Path, "utf8");
+const queryPath = path.resolve("./queries/query5.gql");
+const query = await fs.readFile(queryPath, "utf8");
 
-async function runScraper(maxPages = 100) {
-  console.log("Fetching recommended projects...");
-  let nextCursor = null;
-  let batchOfEdges = [];
+export async function fetchProjects({
+  startCursor = null,
+  maxPages = 100,
+  batchSize = 50,
+  delayMs = [1000, 3000],
+  stopCondition = null, // optional: a function(project) => boolean
+}) {
+  console.log("🚀 Starting project fetch...");
+
+  let nextCursor = startCursor;
+  let batch = [];
+  let total = 0;
   let pageCount = 0;
-  let totalEdges = 0;
-  const BATCH_SIZE = 50;
 
   do {
-    const data = await graphqlRequest(query2, { nextCursor });
-    const edges = data?.data?.projects?.edges || [];
-    batchOfEdges = batchOfEdges.concat(edges);
-    totalEdges += edges.length;
+    const data = await graphqlRequest(query, { nextCursor });
+    const edges = data?.data?.projects?.edges ?? [];
+    const pageInfo = data?.data?.projects?.pageInfo ?? {};
 
-    console.log(`Just grabbed ${edges.length} projects.`);
+    if (!edges.length) break;
 
-    const pageInfo = data?.data?.projects?.pageInfo;
-    nextCursor = pageInfo?.hasNextPage ? pageInfo.endCursor : null;
+    for (const edge of edges) {
+      const project = edge.node;
+      if (stopCondition && stopCondition(project)) {
+        console.log(`🛑 Stop condition met (project ID: ${project.id})`);
+        return total;
+      }
+      batch.push(edge);
+    }
 
-    await sleep(1000 + Math.random() * 2000);
+    total += edges.length;
+    console.log(`📦 Got ${edges.length} (total: ${total})`);
 
-    if (batchOfEdges.length >= BATCH_SIZE) {
-      await saveOrUpdateProjects(batchOfEdges);
-      batchOfEdges = [];
+    if (batch.length >= batchSize) {
+      await saveOrUpdateProjects(batch);
+      batch = [];
+      console.log(`💾 Saved batch of ${batchSize}`);
     }
 
     pageCount++;
+    nextCursor = pageInfo.hasNextPage ? pageInfo.endCursor : null;
+
     if (pageCount >= maxPages) {
-      console.log(`Reached max page limit: ${maxPages}`);
+      console.log(`🛑 Max pages reached (${maxPages})`);
       break;
     }
+
+    const delay = delayMs[0] + Math.random() * (delayMs[1] - delayMs[0]);
+    await sleep(delay);
   } while (nextCursor);
 
-  console.log(`Found ${totalEdges} projects.`);
-  await saveOrUpdateProjects(batchOfEdges);
-  //   await enrichNewProjects();
+  if (batch.length > 0) {
+    await saveOrUpdateProjects(batch);
+    console.log(`💾 Saved final ${batch.length}`);
+  }
+
+  console.log(`✅ Finished fetching ${total} projects.`);
+  return total;
 }
 
-runScraper(1000);
+// Default: run full rebuild if called directly
+if (import.meta.url === `file://${process.argv[1]}`) {
+  fetchProjects({ maxPages: 100 });
+}

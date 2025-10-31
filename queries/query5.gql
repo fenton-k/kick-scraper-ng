@@ -1,9 +1,10 @@
 query ($nextCursor: String) {
-  projects(recommended: true, first: 500, after: $nextCursor, state: LIVE) {
+  projects(first: 10, after: $nextCursor, state: LIVE, sort: NEWEST) {
     edges {
       node {
         id
         name
+        slug
         url
         percentFunded
         pledged {
@@ -11,18 +12,31 @@ query ($nextCursor: String) {
           currency
         }
         description
+        backersCount
+        deadlineAt
+        isLaunched
+        isProjectOfTheDay
+        isProjectWeLove
+
         creator {
           name
           url
+          launchedProjects {
+            totalCount
+          }
         }
-        isLaunched
-        backersCount
-        deadlineAt
-        isProjectOfTheDay
-        isProjectWeLove
+
+        collaborators {
+          edges {
+            node {
+              name
+            }
+          }
+        }
       }
       cursor
     }
+
     pageInfo {
       hasNextPage
       endCursor

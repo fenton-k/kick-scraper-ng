@@ -40,6 +40,14 @@
         "currency": "USD",
         "percentFunded": 512,
         "deadlineAt": 1764133140
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 3397,
+        "pledged": "234899.0",
+        "currency": "USD",
+        "percentFunded": 521,
+        "deadlineAt": 1764133140
       }
     ],
     "tags": {
@@ -47,7 +55,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:31.488Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": []
   },
@@ -131,6 +139,14 @@
         "currency": "USD",
         "percentFunded": 1255,
         "deadlineAt": 1762498740
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 2740,
+        "pledged": "431300.0",
+        "currency": "USD",
+        "percentFunded": 1268,
+        "deadlineAt": 1762498740
       }
     ],
     "tags": {
@@ -138,7 +154,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": [
       "Campbell White (Give'r Crew)",
@@ -179,6 +195,14 @@
         "pledged": "115591.0",
         "percentFunded": 924,
         "deadlineAt": 1764086400
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 116,
+        "pledged": "114650.0",
+        "currency": "CHF",
+        "percentFunded": 917,
+        "deadlineAt": 1764086400
       }
     ],
     "tags": {
@@ -186,7 +210,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "LaunchBoom",
@@ -331,6 +355,14 @@
         "currency": "GBP",
         "percentFunded": 134,
         "deadlineAt": 1764334354
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 220,
+        "pledged": "14001.0",
+        "currency": "GBP",
+        "percentFunded": 140,
+        "deadlineAt": 1764334354
       }
     ],
     "tags": {
@@ -338,7 +370,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": []
   },
@@ -368,6 +400,14 @@
         "currency": "USD",
         "percentFunded": 3938,
         "deadlineAt": 1763079540
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 725,
+        "pledged": "78789.0",
+        "currency": "USD",
+        "percentFunded": 4019,
+        "deadlineAt": 1763079540
       }
     ],
     "tags": {
@@ -375,7 +415,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": [
       "Jellop"
@@ -490,7 +530,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "Courtney Frankel"
@@ -583,6 +623,14 @@
         "currency": "USD",
         "percentFunded": 1253,
         "deadlineAt": 1764111600
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 1251,
+        "pledged": "96225.0",
+        "currency": "USD",
+        "percentFunded": 1283,
+        "deadlineAt": 1764111600
       }
     ],
     "tags": {
@@ -590,7 +638,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:31.488Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": [
       "LaunchBoom",
@@ -630,6 +678,14 @@
         "currency": "USD",
         "percentFunded": 1177,
         "deadlineAt": 1763787540
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 249,
+        "pledged": "118532.0",
+        "currency": "USD",
+        "percentFunded": 1185,
+        "deadlineAt": 1763787540
       }
     ],
     "tags": {
@@ -637,7 +693,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "Willow Winters",
@@ -692,6 +748,14 @@
         "currency": "USD",
         "percentFunded": 757,
         "deadlineAt": 1762113600
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 674,
+        "pledged": "46004.0",
+        "currency": "USD",
+        "percentFunded": 766,
+        "deadlineAt": 1762113600
       }
     ],
     "tags": {
@@ -699,7 +763,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": []
   },
@@ -736,6 +800,14 @@
         "currency": "USD",
         "percentFunded": 407,
         "deadlineAt": 1761958800
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 641,
+        "pledged": "33867.0",
+        "currency": "USD",
+        "percentFunded": 423,
+        "deadlineAt": 1761958800
       }
     ],
     "tags": {
@@ -743,7 +815,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:31.488Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": [
       "Jellop"
@@ -887,6 +959,14 @@
         "currency": "USD",
         "percentFunded": 1275,
         "deadlineAt": 1764057540
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 1082,
+        "pledged": "51969.0",
+        "currency": "USD",
+        "percentFunded": 1299,
+        "deadlineAt": 1764057540
       }
     ],
     "tags": {
@@ -894,7 +974,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "LaunchBoom"
@@ -926,6 +1006,14 @@
         "currency": "AUD",
         "percentFunded": 664,
         "deadlineAt": 1762473600
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 294,
+        "pledged": "18916.0",
+        "currency": "AUD",
+        "percentFunded": 675,
+        "deadlineAt": 1762473600
       }
     ],
     "tags": {
@@ -933,7 +1021,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": []
   },
@@ -963,6 +1051,14 @@
         "currency": "GBP",
         "percentFunded": 102,
         "deadlineAt": 1763031626
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 295,
+        "pledged": "18294.0",
+        "currency": "GBP",
+        "percentFunded": 105,
+        "deadlineAt": 1763031626
       }
     ],
     "tags": {
@@ -970,7 +1066,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:31.488Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": []
   },
@@ -1169,6 +1265,22 @@
         "currency": "EUR",
         "percentFunded": 831,
         "deadlineAt": 1762437853
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 11346,
+        "pledged": "625380.0",
+        "currency": "EUR",
+        "percentFunded": 833,
+        "deadlineAt": 1762437853
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 11354,
+        "pledged": "625983.0",
+        "currency": "EUR",
+        "percentFunded": 834,
+        "deadlineAt": 1762437853
       }
     ],
     "tags": {
@@ -1176,7 +1288,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "ICOTom",
@@ -1271,6 +1383,14 @@
         "currency": "USD",
         "percentFunded": 6,
         "deadlineAt": 1764162000
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 12,
+        "pledged": "3209.0",
+        "currency": "USD",
+        "percentFunded": 6,
+        "deadlineAt": 1764162000
       }
     ],
     "tags": {
@@ -1278,7 +1398,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "Kyle Gerecke"
@@ -1368,7 +1488,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": []
   },
@@ -1398,6 +1518,14 @@
         "currency": "USD",
         "percentFunded": 291,
         "deadlineAt": 1765184340
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 67,
+        "pledged": "3310.0",
+        "currency": "USD",
+        "percentFunded": 331,
+        "deadlineAt": 1765184340
       }
     ],
     "tags": {
@@ -1405,7 +1533,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:31.488Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": []
   },
@@ -1443,6 +1571,14 @@
         "currency": "USD",
         "percentFunded": 1477,
         "deadlineAt": 1761937200
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 855,
+        "pledged": "76449.0",
+        "currency": "USD",
+        "percentFunded": 1528,
+        "deadlineAt": 1761937200
       }
     ],
     "tags": {
@@ -1450,7 +1586,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": []
   },
@@ -1533,6 +1669,14 @@
         "currency": "USD",
         "percentFunded": 843,
         "deadlineAt": 1762534800
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 1071,
+        "pledged": "84585.0",
+        "currency": "USD",
+        "percentFunded": 845,
+        "deadlineAt": 1762534800
       }
     ],
     "tags": {
@@ -1540,7 +1684,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": [
       "Edwin",
@@ -1610,6 +1754,14 @@
         "currency": "HKD",
         "percentFunded": 1794,
         "deadlineAt": 1764082800
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 374,
+        "pledged": "565670.0",
+        "currency": "HKD",
+        "percentFunded": 1885,
+        "deadlineAt": 1764082800
       }
     ],
     "tags": {
@@ -1617,7 +1769,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": []
   },
@@ -1654,6 +1806,22 @@
         "currency": "CHF",
         "percentFunded": 652,
         "deadlineAt": 1762469940
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 1503,
+        "pledged": "99240.0",
+        "currency": "CHF",
+        "percentFunded": 661,
+        "deadlineAt": 1762469940
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 1509,
+        "pledged": "99710.0",
+        "currency": "CHF",
+        "percentFunded": 664,
+        "deadlineAt": 1762469940
       }
     ],
     "tags": {
@@ -1661,7 +1829,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "Pangaia Games",
@@ -1701,6 +1869,14 @@
         "currency": "USD",
         "percentFunded": 17,
         "deadlineAt": 1765339223
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 56,
+        "pledged": "7443.0",
+        "currency": "USD",
+        "percentFunded": 17,
+        "deadlineAt": 1765339223
       }
     ],
     "tags": {
@@ -1708,7 +1884,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": []
   },
@@ -1891,6 +2067,14 @@
         "currency": "USD",
         "percentFunded": 36,
         "deadlineAt": 1763500073
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 140,
+        "pledged": "11074.0",
+        "currency": "USD",
+        "percentFunded": 36,
+        "deadlineAt": 1763500073
       }
     ],
     "tags": {
@@ -1898,7 +2082,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": []
   },
@@ -2111,6 +2295,14 @@
         "currency": "USD",
         "percentFunded": 60,
         "deadlineAt": 1763229675
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 88,
+        "pledged": "3022.0",
+        "currency": "USD",
+        "percentFunded": 60,
+        "deadlineAt": 1763229675
       }
     ],
     "tags": {
@@ -2118,7 +2310,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "blake morgan"
@@ -2203,6 +2395,14 @@
         "currency": "JPY",
         "percentFunded": 332,
         "deadlineAt": 1764799200
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 1797,
+        "pledged": "23674906.0",
+        "currency": "JPY",
+        "percentFunded": 338,
+        "deadlineAt": 1764799200
       }
     ],
     "tags": {
@@ -2210,7 +2410,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": []
   },
@@ -2255,6 +2455,14 @@
         "currency": "USD",
         "percentFunded": 34,
         "deadlineAt": 1763690400
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 143,
+        "pledged": "28361.0",
+        "currency": "USD",
+        "percentFunded": 35,
+        "deadlineAt": 1763690400
       }
     ],
     "tags": {
@@ -2262,7 +2470,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "Margot Atwell"
@@ -2301,6 +2509,14 @@
         "currency": "USD",
         "percentFunded": 92,
         "deadlineAt": 1763193540
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 367,
+        "pledged": "32553.0",
+        "currency": "USD",
+        "percentFunded": 93,
+        "deadlineAt": 1763193540
       }
     ],
     "tags": {
@@ -2308,7 +2524,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "JOBJOB LLC"
@@ -2388,6 +2604,22 @@
         "currency": "USD",
         "percentFunded": 1835,
         "deadlineAt": 1762012807
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 2410,
+        "pledged": "94334.0",
+        "currency": "USD",
+        "percentFunded": 1886,
+        "deadlineAt": 1762012807
+      },
+      {
+        "timestamp": "2025-10-31T15:31:58.271Z",
+        "backersCount": 2411,
+        "pledged": "94341.0",
+        "currency": "USD",
+        "percentFunded": 1886,
+        "deadlineAt": 1762012807
       }
     ],
     "tags": {
@@ -2395,7 +2627,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:31.488Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "Jonáš Obdržálek",
@@ -2478,6 +2710,22 @@
         "currency": "USD",
         "percentFunded": 1912,
         "deadlineAt": 1765550001
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 231,
+        "pledged": "200772.0",
+        "currency": "USD",
+        "percentFunded": 2007,
+        "deadlineAt": 1765550001
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 232,
+        "pledged": "201770.0",
+        "currency": "USD",
+        "percentFunded": 2017,
+        "deadlineAt": 1765550001
       }
     ],
     "tags": {
@@ -2485,7 +2733,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "Randy",
@@ -2795,6 +3043,14 @@
         "currency": "USD",
         "percentFunded": 218,
         "deadlineAt": 1762009184
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 774,
+        "pledged": "82101.0",
+        "currency": "USD",
+        "percentFunded": 218,
+        "deadlineAt": 1762009184
       }
     ],
     "tags": {
@@ -2802,7 +3058,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": []
   },
@@ -2923,6 +3179,22 @@
         "currency": "CAD",
         "percentFunded": 1734,
         "deadlineAt": 1762174817
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 3897,
+        "pledged": "438107.0",
+        "currency": "CAD",
+        "percentFunded": 1752,
+        "deadlineAt": 1762174817
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 3901,
+        "pledged": "438842.0",
+        "currency": "CAD",
+        "percentFunded": 1755,
+        "deadlineAt": 1762174817
       }
     ],
     "tags": {
@@ -2930,7 +3202,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:31.488Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": []
   },
@@ -2960,6 +3232,14 @@
         "currency": "USD",
         "percentFunded": 577,
         "deadlineAt": 1763701140
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 615,
+        "pledged": "58541.0",
+        "currency": "USD",
+        "percentFunded": 585,
+        "deadlineAt": 1763701140
       }
     ],
     "tags": {
@@ -2967,7 +3247,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": [
       "Samantha Olson",
@@ -3023,6 +3303,14 @@
         "currency": "USD",
         "percentFunded": 6708,
         "deadlineAt": 1762524045
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 2312,
+        "pledged": "675585.0",
+        "currency": "USD",
+        "percentFunded": 6755,
+        "deadlineAt": 1762524045
       }
     ],
     "tags": {
@@ -3030,7 +3318,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": [
       "TCF Team (The Crowdfunding Formula)",
@@ -3073,6 +3361,14 @@
         "currency": "GBP",
         "percentFunded": 47,
         "deadlineAt": 1764329417
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 85,
+        "pledged": "6009.0",
+        "currency": "GBP",
+        "percentFunded": 50,
+        "deadlineAt": 1764329417
       }
     ],
     "tags": {
@@ -3080,7 +3376,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "john bulmer"
@@ -3164,6 +3460,22 @@
         "currency": "EUR",
         "percentFunded": 4209,
         "deadlineAt": 1762354830
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 3390,
+        "pledged": "424884.0",
+        "currency": "EUR",
+        "percentFunded": 4248,
+        "deadlineAt": 1762354830
+      },
+      {
+        "timestamp": "2025-10-31T15:31:58.271Z",
+        "backersCount": 3391,
+        "pledged": "424997.0",
+        "currency": "EUR",
+        "percentFunded": 4249,
+        "deadlineAt": 1762354830
       }
     ],
     "tags": {
@@ -3171,7 +3483,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "iDventure",
@@ -3213,6 +3525,14 @@
         "currency": "USD",
         "percentFunded": 350,
         "deadlineAt": 1765184340
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 45,
+        "pledged": "3859.0",
+        "currency": "USD",
+        "percentFunded": 385,
+        "deadlineAt": 1765184340
       }
     ],
     "tags": {
@@ -3220,7 +3540,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": []
   },
@@ -3250,6 +3570,14 @@
         "currency": "USD",
         "percentFunded": 464,
         "deadlineAt": 1763470503
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 158,
+        "pledged": "7247.0",
+        "currency": "USD",
+        "percentFunded": 483,
+        "deadlineAt": 1763470503
       }
     ],
     "tags": {
@@ -3257,7 +3585,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:31.488Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": [
       "Nicholas Kotar"
@@ -3289,6 +3617,14 @@
         "currency": "GBP",
         "percentFunded": 712,
         "deadlineAt": 1763312399
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 913,
+        "pledged": "72160.0",
+        "currency": "GBP",
+        "percentFunded": 721,
+        "deadlineAt": 1763312399
       }
     ],
     "tags": {
@@ -3296,7 +3632,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": []
   },
@@ -3356,6 +3692,22 @@
         "currency": "USD",
         "percentFunded": 1421,
         "deadlineAt": 1762963070
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 2027,
+        "pledged": "7133108.0",
+        "currency": "USD",
+        "percentFunded": 1426,
+        "deadlineAt": 1762963070
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 2031,
+        "pledged": "7147799.0",
+        "currency": "USD",
+        "percentFunded": 1429,
+        "deadlineAt": 1762963070
       }
     ],
     "tags": {
@@ -3363,7 +3715,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:31.488Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "Global OneClick",
@@ -3449,6 +3801,14 @@
         "currency": "EUR",
         "percentFunded": 1191,
         "deadlineAt": 1763711940
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 1769,
+        "pledged": "120700.0",
+        "currency": "EUR",
+        "percentFunded": 1207,
+        "deadlineAt": 1763711940
       }
     ],
     "tags": {
@@ -3456,7 +3816,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": [
       "LaunchBoom"
@@ -3510,6 +3870,14 @@
         "currency": "USD",
         "percentFunded": 5660,
         "deadlineAt": 1764876600
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 2650,
+        "pledged": "285150.0",
+        "currency": "USD",
+        "percentFunded": 5703,
+        "deadlineAt": 1764876600
       }
     ],
     "tags": {
@@ -3517,7 +3885,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "Gadget Flow Official (thegadgetflow.com)",
@@ -3564,6 +3932,14 @@
         "currency": "USD",
         "percentFunded": 2995,
         "deadlineAt": 1763791140
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 1314,
+        "pledged": "150292.0",
+        "currency": "USD",
+        "percentFunded": 3005,
+        "deadlineAt": 1763791140
       }
     ],
     "tags": {
@@ -3571,7 +3947,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "Agency 2.0 - #1 Crowdfunding Videos",
@@ -3858,6 +4234,14 @@
         "currency": "HKD",
         "percentFunded": 8224,
         "deadlineAt": 1762092867
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 6083,
+        "pledged": "3778007.0",
+        "currency": "HKD",
+        "percentFunded": 8285,
+        "deadlineAt": 1762092867
       }
     ],
     "tags": {
@@ -3865,7 +4249,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "Jellop",
@@ -3965,6 +4349,14 @@
         "currency": "USD",
         "percentFunded": 4937,
         "deadlineAt": 1763172000
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 10001,
+        "pledged": "2427488.0",
+        "currency": "USD",
+        "percentFunded": 4954,
+        "deadlineAt": 1763172000
       }
     ],
     "tags": {
@@ -3972,7 +4364,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": [
       "George Rohac",
@@ -4022,6 +4414,22 @@
         "currency": "USD",
         "percentFunded": 2085,
         "deadlineAt": 1762560000
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 4900,
+        "pledged": "525991.0",
+        "currency": "USD",
+        "percentFunded": 2103,
+        "deadlineAt": 1762560000
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 4906,
+        "pledged": "526683.0",
+        "currency": "USD",
+        "percentFunded": 2106,
+        "deadlineAt": 1762560000
       }
     ],
     "tags": {
@@ -4029,7 +4437,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "Michael Mihealsick",
@@ -4157,6 +4565,14 @@
         "currency": "USD",
         "percentFunded": 457,
         "deadlineAt": 1762902000
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 423,
+        "pledged": "46470.0",
+        "currency": "USD",
+        "percentFunded": 464,
+        "deadlineAt": 1762902000
       }
     ],
     "tags": {
@@ -4164,7 +4580,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": []
   },
@@ -4202,6 +4618,14 @@
         "currency": "GBP",
         "percentFunded": 690,
         "deadlineAt": 1762462800
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 1203,
+        "pledged": "211144.0",
+        "currency": "GBP",
+        "percentFunded": 703,
+        "deadlineAt": 1762462800
       }
     ],
     "tags": {
@@ -4209,7 +4633,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "Cult of Paint",
@@ -4242,6 +4666,30 @@
         "currency": "USD",
         "percentFunded": 355,
         "deadlineAt": 1762549200
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 5030,
+        "pledged": "893401.0",
+        "currency": "USD",
+        "percentFunded": 357,
+        "deadlineAt": 1762549200
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 5041,
+        "pledged": "893816.0",
+        "currency": "USD",
+        "percentFunded": 357,
+        "deadlineAt": 1762549200
+      },
+      {
+        "timestamp": "2025-10-31T15:31:58.271Z",
+        "backersCount": 5042,
+        "pledged": "893841.0",
+        "currency": "USD",
+        "percentFunded": 357,
+        "deadlineAt": 1762549200
       }
     ],
     "tags": {
@@ -4249,7 +4697,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "Pulling Power Media",
@@ -4435,6 +4883,14 @@
         "currency": "USD",
         "percentFunded": 41,
         "deadlineAt": 1763571420
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 109,
+        "pledged": "15388.0",
+        "currency": "USD",
+        "percentFunded": 43,
+        "deadlineAt": 1763571420
       }
     ],
     "tags": {
@@ -4442,7 +4898,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:31.488Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": []
   },
@@ -4480,6 +4936,14 @@
         "currency": "HKD",
         "percentFunded": 4309,
         "deadlineAt": 1765555203
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 3689,
+        "pledged": "34093872.0",
+        "currency": "HKD",
+        "percentFunded": 4389,
+        "deadlineAt": 1765555203
       }
     ],
     "tags": {
@@ -4487,7 +4951,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:31.488Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "Makera Support",
@@ -4540,6 +5004,14 @@
         "currency": "USD",
         "percentFunded": 264,
         "deadlineAt": 1761962340
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 814,
+        "pledged": "51441.0",
+        "currency": "USD",
+        "percentFunded": 285,
+        "deadlineAt": 1761962340
       }
     ],
     "tags": {
@@ -4547,7 +5019,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": [
       "George Rohac"
@@ -4631,6 +5103,14 @@
         "currency": "USD",
         "percentFunded": 285,
         "deadlineAt": 1763798340
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 226,
+        "pledged": "30457.0",
+        "currency": "USD",
+        "percentFunded": 304,
+        "deadlineAt": 1763798340
       }
     ],
     "tags": {
@@ -4638,7 +5118,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": [
       "Eric Moss",
@@ -4672,6 +5152,22 @@
         "currency": "USD",
         "percentFunded": 915,
         "deadlineAt": 1761976740
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 6114,
+        "pledged": "326076.0",
+        "currency": "USD",
+        "percentFunded": 931,
+        "deadlineAt": 1761976740
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 6123,
+        "pledged": "326552.0",
+        "currency": "USD",
+        "percentFunded": 933,
+        "deadlineAt": 1761976740
       }
     ],
     "tags": {
@@ -4679,7 +5175,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:31.488Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": []
   },
@@ -4709,6 +5205,14 @@
         "currency": "USD",
         "percentFunded": 122,
         "deadlineAt": 1764263000
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 209,
+        "pledged": "21154.0",
+        "currency": "USD",
+        "percentFunded": 124,
+        "deadlineAt": 1764263000
       }
     ],
     "tags": {
@@ -4716,7 +5220,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:31.488Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "Henry Patrick Lee",
@@ -4761,6 +5265,14 @@
         "currency": "HKD",
         "percentFunded": 489,
         "deadlineAt": 1767020479
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 101,
+        "pledged": "4322571.0",
+        "currency": "HKD",
+        "percentFunded": 556,
+        "deadlineAt": 1767020479
       }
     ],
     "tags": {
@@ -4768,7 +5280,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:31.488Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "XLaserlab Team",
@@ -4852,6 +5364,14 @@
         "currency": "USD",
         "percentFunded": 2258,
         "deadlineAt": 1763154000
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 3506,
+        "pledged": "229701.0",
+        "currency": "USD",
+        "percentFunded": 2297,
+        "deadlineAt": 1763154000
       }
     ],
     "tags": {
@@ -4859,7 +5379,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:31.488Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": [
       "Drew Wehrle"
@@ -4928,6 +5448,14 @@
         "currency": "SEK",
         "percentFunded": 394,
         "deadlineAt": 1764143940
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 256,
+        "pledged": "201177.0",
+        "currency": "SEK",
+        "percentFunded": 402,
+        "deadlineAt": 1764143940
       }
     ],
     "tags": {
@@ -4935,7 +5463,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "LaunchBoom",
@@ -4975,6 +5503,22 @@
         "currency": "USD",
         "percentFunded": 107,
         "deadlineAt": 1763998232
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 796,
+        "pledged": "76516.0",
+        "currency": "USD",
+        "percentFunded": 108,
+        "deadlineAt": 1763998232
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 797,
+        "pledged": "76606.0",
+        "currency": "USD",
+        "percentFunded": 108,
+        "deadlineAt": 1763998232
       }
     ],
     "tags": {
@@ -4982,7 +5526,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "Hillary Brown"
@@ -5021,6 +5565,14 @@
         "currency": "JPY",
         "percentFunded": 598,
         "deadlineAt": 1763222340
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 837,
+        "pledged": "30729909.0",
+        "currency": "JPY",
+        "percentFunded": 614,
+        "deadlineAt": 1763222340
       }
     ],
     "tags": {
@@ -5028,7 +5580,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "Paraph(Ryohei Kamada)",
@@ -5151,6 +5703,14 @@
         "currency": "EUR",
         "percentFunded": 2163,
         "deadlineAt": 1764197940
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 950,
+        "pledged": "55580.0",
+        "currency": "EUR",
+        "percentFunded": 2223,
+        "deadlineAt": 1764197940
       }
     ],
     "tags": {
@@ -5158,7 +5718,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": [
       "Mattia Di Stasi - Crowdfunding Expert",
@@ -5333,6 +5893,22 @@
         "currency": "GBP",
         "percentFunded": 274,
         "deadlineAt": 1764174600
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 230,
+        "pledged": "15034.0",
+        "currency": "GBP",
+        "percentFunded": 273,
+        "deadlineAt": 1764174600
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 231,
+        "pledged": "15169.0",
+        "currency": "GBP",
+        "percentFunded": 275,
+        "deadlineAt": 1764174600
       }
     ],
     "tags": {
@@ -5340,7 +5916,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": []
   },
@@ -5517,6 +6093,14 @@
         "currency": "USD",
         "percentFunded": 443,
         "deadlineAt": 1763654317
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 602,
+        "pledged": "67658.0",
+        "currency": "USD",
+        "percentFunded": 451,
+        "deadlineAt": 1763654317
       }
     ],
     "tags": {
@@ -5524,7 +6108,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": [
       "Russell Marketing",
@@ -5755,6 +6339,14 @@
         "currency": "USD",
         "percentFunded": 2320,
         "deadlineAt": 1764248429
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 237,
+        "pledged": "233019.0",
+        "currency": "USD",
+        "percentFunded": 2330,
+        "deadlineAt": 1764248429
       }
     ],
     "tags": {
@@ -5762,7 +6354,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": [
       "LaunchBoom"
@@ -5801,6 +6393,14 @@
         "currency": "USD",
         "percentFunded": 2638,
         "deadlineAt": 1764997200
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 4754,
+        "pledged": "212140.0",
+        "currency": "USD",
+        "percentFunded": 2651,
+        "deadlineAt": 1764997200
       }
     ],
     "tags": {
@@ -5808,7 +6408,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": [
       "Molly",
@@ -5932,6 +6532,14 @@
         "currency": "USD",
         "percentFunded": 535,
         "deadlineAt": 1764251112
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 1239,
+        "pledged": "146002.0",
+        "currency": "USD",
+        "percentFunded": 584,
+        "deadlineAt": 1764251112
       }
     ],
     "tags": {
@@ -5939,7 +6547,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": [
       "Meredith Borders",
@@ -5973,6 +6581,22 @@
         "currency": "GBP",
         "percentFunded": 1797,
         "deadlineAt": 1763650800
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 7996,
+        "pledged": "271411.0",
+        "currency": "GBP",
+        "percentFunded": 1809,
+        "deadlineAt": 1763650800
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 8003,
+        "pledged": "271990.0",
+        "currency": "GBP",
+        "percentFunded": 1813,
+        "deadlineAt": 1763650800
       }
     ],
     "tags": {
@@ -5980,7 +6604,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "al",
@@ -6021,6 +6645,14 @@
         "currency": "USD",
         "percentFunded": 199,
         "deadlineAt": 1761980340
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 249,
+        "pledged": "6219.0",
+        "currency": "USD",
+        "percentFunded": 207,
+        "deadlineAt": 1761980340
       }
     ],
     "tags": {
@@ -6028,7 +6660,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:31.488Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": []
   },
@@ -6058,6 +6690,14 @@
         "currency": "GBP",
         "percentFunded": 1201,
         "deadlineAt": 1762196400
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 1438,
+        "pledged": "180909.0",
+        "currency": "GBP",
+        "percentFunded": 1206,
+        "deadlineAt": 1762196400
       }
     ],
     "tags": {
@@ -6065,7 +6705,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:31.488Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": true,
     "collaborators": []
   },
@@ -6095,6 +6735,22 @@
         "currency": "NZD",
         "percentFunded": 579,
         "deadlineAt": 1763701200
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 422,
+        "pledged": "58994.0",
+        "currency": "NZD",
+        "percentFunded": 589,
+        "deadlineAt": 1763701200
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 423,
+        "pledged": "59198.0",
+        "currency": "NZD",
+        "percentFunded": 591,
+        "deadlineAt": 1763701200
       }
     ],
     "tags": {
@@ -6102,7 +6758,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": true,
     "collaborators": [
       "Jellop",
@@ -16718,6 +17374,22 @@
         "currency": "GBP",
         "percentFunded": 45,
         "deadlineAt": 1764100809
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 226,
+        "pledged": "10478.0",
+        "currency": "GBP",
+        "percentFunded": 50,
+        "deadlineAt": 1764100809
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 227,
+        "pledged": "10493.0",
+        "currency": "GBP",
+        "percentFunded": 50,
+        "deadlineAt": 1764100809
       }
     ],
     "tags": {
@@ -16725,7 +17397,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:22:52.724Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": false
   },
   "UHJvamVjdC01NDAyNjA5MTk=": {
@@ -18767,6 +19439,14 @@
         "currency": "USD",
         "percentFunded": 1246,
         "deadlineAt": 1763107140
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 1715,
+        "pledged": "251280.0",
+        "currency": "USD",
+        "percentFunded": 1256,
+        "deadlineAt": 1763107140
       }
     ],
     "tags": {
@@ -18774,7 +19454,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:13.268Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": false
   },
   "UHJvamVjdC0xNDI4NzQ3Nzk2": {
@@ -20186,6 +20866,22 @@
         "currency": "EUR",
         "percentFunded": 1671,
         "deadlineAt": 1762516802
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 3695,
+        "pledged": "421732.0",
+        "currency": "EUR",
+        "percentFunded": 1686,
+        "deadlineAt": 1762516802
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 3700,
+        "pledged": "422105.0",
+        "currency": "EUR",
+        "percentFunded": 1688,
+        "deadlineAt": 1762516802
       }
     ],
     "tags": {
@@ -20193,7 +20889,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:51.985Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": false
   },
   "UHJvamVjdC00MDc1MDgxOTM=": {
@@ -22741,6 +23437,14 @@
         "currency": "EUR",
         "percentFunded": 131,
         "deadlineAt": 1762081200
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 547,
+        "pledged": "40576.0",
+        "currency": "EUR",
+        "percentFunded": 135,
+        "deadlineAt": 1762081200
       }
     ],
     "tags": {
@@ -22748,7 +23452,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:22:13.861Z",
+    "lastUpdated": "2025-10-31T14:29:47.884Z",
     "_enriched": false
   },
   "UHJvamVjdC0xNzQ5MTM5MDE3": {
@@ -23371,6 +24075,22 @@
         "currency": "USD",
         "percentFunded": 7076,
         "deadlineAt": 1762783200
+      },
+      {
+        "timestamp": "2025-10-31T14:29:47.884Z",
+        "backersCount": 1420,
+        "pledged": "361895.0",
+        "currency": "USD",
+        "percentFunded": 7237,
+        "deadlineAt": 1762783200
+      },
+      {
+        "timestamp": "2025-10-31T15:31:18.176Z",
+        "backersCount": 1432,
+        "pledged": "364576.0",
+        "currency": "USD",
+        "percentFunded": 7291,
+        "deadlineAt": 1762783200
       }
     ],
     "tags": {
@@ -23378,7 +24098,7 @@
       "isProjectWeLove": true,
       "isProjectOfTheDay": false
     },
-    "lastUpdated": "2025-10-31T02:21:31.488Z",
+    "lastUpdated": "2025-10-31T15:31:58.271Z",
     "_enriched": false
   },
   "UHJvamVjdC0xNDA3NDIyNjgx": {
@@ -124984,6 +125704,286 @@
       "isProjectOfTheDay": false
     },
     "lastUpdated": "2025-10-31T02:33:35.459Z",
+    "_enriched": false
+  },
+  "UHJvamVjdC0xMzIyMTk1NTgy": {
+    "id": "UHJvamVjdC0xMzIyMTk1NTgy",
+    "slug": "maximized/uncannie-investigations",
+    "url": "https://www.kickstarter.com/projects/maximized/uncannie-investigations",
+    "name": "Uncannie Investigations",
+    "description": "Monsters, ghosts, and spooky occurrences - podcasters, Uncannie Investigations, take a trip around spooky locations in Scotland.",
+    "creator": {
+      "name": "Colin Maxwell",
+      "url": "https://www.kickstarter.com/profile/maximized"
+    },
+    "fundingHistory": [
+      {
+        "timestamp": "2025-10-31T17:54:48.866Z",
+        "backersCount": 6,
+        "pledged": "54.0",
+        "currency": "GBP",
+        "percentFunded": 10,
+        "deadlineAt": 1764536400
+      }
+    ],
+    "tags": {
+      "isLaunched": true,
+      "isProjectWeLove": false,
+      "isProjectOfTheDay": false
+    },
+    "lastUpdated": "2025-10-31T17:54:48.866Z",
+    "_enriched": false
+  },
+  "UHJvamVjdC0xMTk2MTIyNTA5": {
+    "id": "UHJvamVjdC0xMTk2MTIyNTA5",
+    "slug": "senseofsoul/sense-of-soul-lucy-shardalows-debut-ep",
+    "url": "https://www.kickstarter.com/projects/senseofsoul/sense-of-soul-lucy-shardalows-debut-ep",
+    "name": "Sense of Soul: Lucy Shardalow's debut EP",
+    "description": "Born from healing, crafted for dreaming - this mini album is a call to hope, connection & creative courage. Help me to make it happen.",
+    "creator": {
+      "name": "Lucy Shardalow",
+      "url": "https://www.kickstarter.com/profile/senseofsoul"
+    },
+    "fundingHistory": [
+      {
+        "timestamp": "2025-10-31T17:54:48.866Z",
+        "backersCount": 0,
+        "pledged": "0.0",
+        "currency": "GBP",
+        "percentFunded": 0,
+        "deadlineAt": 1765823682
+      }
+    ],
+    "tags": {
+      "isLaunched": true,
+      "isProjectWeLove": false,
+      "isProjectOfTheDay": false
+    },
+    "lastUpdated": "2025-10-31T17:54:48.866Z",
+    "_enriched": false
+  },
+  "UHJvamVjdC0xMjMzNDM3NTA0": {
+    "id": "UHJvamVjdC0xMjMzNDM3NTA0",
+    "slug": "marathonr/flow-state-collection-responsible-runningwear-by-marathonr",
+    "url": "https://www.kickstarter.com/projects/marathonr/flow-state-collection-responsible-runningwear-by-marathonr",
+    "name": "Flow State Collection- Responsible Runningwear by Marathon.R",
+    "description": "Performance apparel for runners who care about people and planet.",
+    "creator": {
+      "name": "Joeri Grevers",
+      "url": "https://www.kickstarter.com/profile/marathonr"
+    },
+    "fundingHistory": [
+      {
+        "timestamp": "2025-10-31T17:54:48.866Z",
+        "backersCount": 5,
+        "pledged": "830.0",
+        "currency": "EUR",
+        "percentFunded": 2,
+        "deadlineAt": 1764527317
+      }
+    ],
+    "tags": {
+      "isLaunched": true,
+      "isProjectWeLove": false,
+      "isProjectOfTheDay": false
+    },
+    "lastUpdated": "2025-10-31T17:54:48.866Z",
+    "_enriched": false
+  },
+  "UHJvamVjdC05ODEyMjM1MDE=": {
+    "id": "UHJvamVjdC05ODEyMjM1MDE=",
+    "slug": "merrielittleshadows/merrie-little-shadows-a-comedy-horror-short-film",
+    "url": "https://www.kickstarter.com/projects/merrielittleshadows/merrie-little-shadows-a-comedy-horror-short-film",
+    "name": "MERRIE LITTLE SHADOWS: A Comedy-Horror Short Film",
+    "description": "Maybe You Should Be Afraid of Your Own Shadow...",
+    "creator": {
+      "name": "Tony Thomas",
+      "url": "https://www.kickstarter.com/profile/merrielittleshadows"
+    },
+    "fundingHistory": [
+      {
+        "timestamp": "2025-10-31T17:54:48.866Z",
+        "backersCount": 0,
+        "pledged": "0.0",
+        "currency": "GBP",
+        "percentFunded": 0,
+        "deadlineAt": 1764527315
+      }
+    ],
+    "tags": {
+      "isLaunched": true,
+      "isProjectWeLove": false,
+      "isProjectOfTheDay": false
+    },
+    "lastUpdated": "2025-10-31T17:54:48.866Z",
+    "_enriched": false
+  },
+  "UHJvamVjdC05MzU0MTYwNDA=": {
+    "id": "UHJvamVjdC05MzU0MTYwNDA=",
+    "slug": "sund/the-tree-of-death-a-city-story",
+    "url": "https://www.kickstarter.com/projects/sund/the-tree-of-death-a-city-story",
+    "name": "The Tree of Death: A City Story",
+    "description": "The Tree of Death is a short bizzaro fiction comic book (graphic novel if you're saucy)",
+    "creator": {
+      "name": "sunshine derivatives",
+      "url": "https://www.kickstarter.com/profile/sund"
+    },
+    "fundingHistory": [
+      {
+        "timestamp": "2025-10-31T17:54:48.866Z",
+        "backersCount": 0,
+        "pledged": "0.0",
+        "currency": "USD",
+        "percentFunded": 0,
+        "deadlineAt": 1767044520
+      }
+    ],
+    "tags": {
+      "isLaunched": true,
+      "isProjectWeLove": false,
+      "isProjectOfTheDay": false
+    },
+    "lastUpdated": "2025-10-31T17:54:48.866Z",
+    "_enriched": false
+  },
+  "UHJvamVjdC0yMTgxOTIzODg=": {
+    "id": "UHJvamVjdC0yMTgxOTIzODg=",
+    "slug": "trixee/mniverse-a-magical-physicaldigital-experience-network",
+    "url": "https://www.kickstarter.com/projects/trixee/mniverse-a-magical-physicaldigital-experience-network",
+    "name": "m∞niverse — a magical network of physical–digital experience",
+    "description": "One tap of a smartphone unlocks a moment, a memory, or a connection — transforming how we gift, share, and celebrate meaning.",
+    "creator": {
+      "name": "Trixee",
+      "url": "https://www.kickstarter.com/profile/trixee"
+    },
+    "fundingHistory": [
+      {
+        "timestamp": "2025-10-31T17:54:48.866Z",
+        "backersCount": 0,
+        "pledged": "0.0",
+        "currency": "GBP",
+        "percentFunded": 0,
+        "deadlineAt": 1764547140
+      }
+    ],
+    "tags": {
+      "isLaunched": true,
+      "isProjectWeLove": false,
+      "isProjectOfTheDay": false
+    },
+    "lastUpdated": "2025-10-31T17:54:48.866Z",
+    "_enriched": false
+  },
+  "UHJvamVjdC00Nzg3MDUyMTk=": {
+    "id": "UHJvamVjdC00Nzg3MDUyMTk=",
+    "slug": "familystore/fs-sos-a-family-store-collection",
+    "url": "https://www.kickstarter.com/projects/familystore/fs-sos-a-family-store-collection",
+    "name": "FS SOS - A Family Store collection.",
+    "description": "From our store in Brighton we're dropping an array goods as a call-out to lend a helping hand in these tricksy times.",
+    "creator": {
+      "name": "Family Store",
+      "url": "https://www.kickstarter.com/profile/familystore"
+    },
+    "fundingHistory": [
+      {
+        "timestamp": "2025-10-31T17:54:48.866Z",
+        "backersCount": 0,
+        "pledged": "0.0",
+        "currency": "GBP",
+        "percentFunded": 0,
+        "deadlineAt": 1763640300
+      }
+    ],
+    "tags": {
+      "isLaunched": true,
+      "isProjectWeLove": false,
+      "isProjectOfTheDay": false
+    },
+    "lastUpdated": "2025-10-31T17:54:48.866Z",
+    "_enriched": false
+  },
+  "UHJvamVjdC0yNjM1NDc1MzM=": {
+    "id": "UHJvamVjdC0yNjM1NDc1MzM=",
+    "slug": "pixelheart/bang-bang-busters-2",
+    "url": "https://www.kickstarter.com/projects/pixelheart/bang-bang-busters-2",
+    "name": "Bang² Busters 2 – Space Bunnies are back on NEO GEO and more",
+    "description": "A new, crazy sequel to VISCO's Neo Geo arcade classic, created by the PixelHeart team! Retro action guaranteed and physical edition!",
+    "creator": {
+      "name": "PixelHeart",
+      "url": "https://www.kickstarter.com/profile/pixelheart"
+    },
+    "fundingHistory": [
+      {
+        "timestamp": "2025-10-31T17:54:48.866Z",
+        "backersCount": 37,
+        "pledged": "6657.0",
+        "currency": "EUR",
+        "percentFunded": 19,
+        "deadlineAt": 1764525800
+      }
+    ],
+    "tags": {
+      "isLaunched": true,
+      "isProjectWeLove": false,
+      "isProjectOfTheDay": false
+    },
+    "lastUpdated": "2025-10-31T17:54:48.866Z",
+    "_enriched": false
+  },
+  "UHJvamVjdC0xNjg2ODU0Nzgx": {
+    "id": "UHJvamVjdC0xNjg2ODU0Nzgx",
+    "slug": "1352974473/the-uprising",
+    "url": "https://www.kickstarter.com/projects/1352974473/the-uprising",
+    "name": "The Uprising",
+    "description": "Tactical combat skirmish in the Age of Northern Crusades. Teutonic Knights, pagan Prussians, gods and demons at war for the Baltics.",
+    "creator": {
+      "name": "Bernhard Kleber",
+      "url": "https://www.kickstarter.com/profile/1352974473"
+    },
+    "fundingHistory": [
+      {
+        "timestamp": "2025-10-31T17:54:48.866Z",
+        "backersCount": 4,
+        "pledged": "726.0",
+        "currency": "EUR",
+        "percentFunded": 15,
+        "deadlineAt": 1764525649
+      }
+    ],
+    "tags": {
+      "isLaunched": true,
+      "isProjectWeLove": false,
+      "isProjectOfTheDay": false
+    },
+    "lastUpdated": "2025-10-31T17:54:48.866Z",
+    "_enriched": false
+  },
+  "UHJvamVjdC0yMTA0MjA2NjE2": {
+    "id": "UHJvamVjdC0yMTA0MjA2NjE2",
+    "slug": "layla-ashtar/spooky-st-valentine-hard-enamel-pins-and-goodies-collection",
+    "url": "https://www.kickstarter.com/projects/layla-ashtar/spooky-st-valentine-hard-enamel-pins-and-goodies-collection",
+    "name": "Spooky St. Valentine: Hard Enamel Pins & Goodies Collection",
+    "description": "For the romantic souls who believe love lasts forevermore: ghostly chocolates, wicked adornments & eerie sweetness for haunted hearts.",
+    "creator": {
+      "name": "Layla Ashtar",
+      "url": "https://www.kickstarter.com/profile/layla-ashtar"
+    },
+    "fundingHistory": [
+      {
+        "timestamp": "2025-10-31T17:54:48.866Z",
+        "backersCount": 13,
+        "pledged": "1165.0",
+        "currency": "EUR",
+        "percentFunded": 116,
+        "deadlineAt": 1764525561
+      }
+    ],
+    "tags": {
+      "isLaunched": true,
+      "isProjectWeLove": false,
+      "isProjectOfTheDay": false
+    },
+    "lastUpdated": "2025-10-31T17:54:48.866Z",
     "_enriched": false
   }
 }
