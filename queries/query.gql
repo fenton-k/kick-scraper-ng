@@ -1,0 +1,18 @@
+query ($slug: String!) {
+  project(slug: $slug) {
+    id
+    creator {
+      name
+      launchedProjects {
+        totalCount
+      }
+    }
+    collaborators {
+      edges {
+        node {
+          name
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+query ($nextCursor: String) {
+  projects(recommended: true, first: 100, after: $nextCursor, state: LIVE) {
+    edges {
+      node {
+        id
+        url
+      }
+      cursor
+    }
+  }
+}

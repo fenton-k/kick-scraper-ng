@@ -1,0 +1,28 @@
+{
+  "name": "kick-scraper-ng",
+  "version": "1.0.0",
+  "description": "Kickstarter scraper with project tracking, enrichment, and funding history",
+  "type": "module",
+  "main": "scrape.js",
+  "scripts": {
+    "start": "node scrape.js",
+    "enrich": "node enrich.js"
+  },
+  "keywords": [
+    "kickstarter",
+    "scraper",
+    "graphql"
+  ],
+  "author": "Fenton Krupp",
+  "license": "MIT",
+  "dependencies": {
+    "https-proxy-agent": "^7.0.6",
+    "node-fetch": "^3.3.2",
+    "p-limit": "^4.0.0",
+    "puppeteer": "^24.27.0",
+    "puppeteer-core": "^24.27.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
