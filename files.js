@@ -50,10 +50,6 @@ export async function saveOrUpdateProjects(apiData) {
       deadlineAt: node.deadlineAt || null,
     };
 
-    // **CRITICAL**: Preserve enrichment flag if it exists.
-    // This ensures we don't reset it during a simple data refresh.
-    const enrichedFlag = existing[id]?._enriched || false;
-
     if (!existing[id]) {
       // New project
       newProjects++;
@@ -74,7 +70,6 @@ export async function saveOrUpdateProjects(apiData) {
           isProjectOfTheDay: node.isProjectOfTheDay || false,
         },
         lastUpdated: now,
-        _enriched: false, // New projects are never enriched yet
       };
     } else {
       // Update existing project
@@ -108,7 +103,6 @@ export async function saveOrUpdateProjects(apiData) {
       }
 
       p.lastUpdated = now;
-      p._enriched = enrichedFlag; // **CRITICAL**: Re-apply the preserved flag
     }
   }
 
