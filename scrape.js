@@ -1,5 +1,6 @@
 import { graphqlRequest } from "./graphql.js";
 import { saveOrUpdateProjects } from "./files.js";
+import { closeBrowser } from "./graphql.js";
 import { sleep } from "./utils.js";
 import fs from "fs/promises";
 import path from "path";
@@ -69,5 +70,17 @@ export async function fetchProjects({
 
 // Default: run full rebuild if called directly
 if (import.meta.url === `file://${process.argv[1]}`) {
-  fetchProjects({ maxPages: 100 });
+  fetchProjects({ maxPages: 10 })
+    .then(() => closeBrowser())
+    .catch(async (err) => {
+      console.error("Scraper error:", err);
+      await closeBrowser();
+    });
 }
+
+fetchProjects({ maxPages: 10 })
+  .then(() => closeBrowser())
+  .catch(async (err) => {
+    console.error("Scraper error:", err);
+    await closeBrowser();
+  });

@@ -1,5 +1,5 @@
 query ($nextCursor: String) {
-  projects(first: 10, after: $nextCursor, state: LIVE, sort: NEWEST) {
+  projects(first: 48, after: $nextCursor, state: LIVE, sort: NEWEST) {
     edges {
       node {
         id
