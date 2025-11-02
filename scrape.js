@@ -73,7 +73,7 @@ const __filename = fileURLToPath(import.meta.url);
 
 // Run the scraper only when called directly (not when imported)
 if (process.argv[1] === __filename) {
-  fetchProjects({ maxPages: 5 })
+  fetchProjects({ maxPages: 999 })
     .then(() => closeBrowser())
     .catch(async (err) => {
       console.error("Scraper error:", err);
