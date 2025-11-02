@@ -1,6 +1,46 @@
 import fs from "fs/promises";
 
 const FILE_PATH = "./projects.json";
+const RATES_PATH = "./exchange-rates.json";
+
+/** Load exchange rates once per run */
+let cachedRates = null;
+async function loadExchangeRates() {
+  if (cachedRates) return cachedRates;
+  try {
+    const text = await fs.readFile(RATES_PATH, "utf8");
+    const parsed = JSON.parse(text);
+    const rates = parsed?.rates || parsed;
+    if (!rates?.USD) throw new Error("Missing USD rate");
+    cachedRates = rates;
+    console.log(`💱 Rates loaded (base: ${parsed.base_code || "USD"})`);
+    return rates;
+  } catch (err) {
+    console.warn("⚠️ Could not load exchange rates. Using fallback {USD:1}");
+    cachedRates = { USD: 1 };
+    return cachedRates;
+  }
+}
+
+/** Convert amount to USD using provided rates */
+function normalizeToUSD(amount, currency, rates) {
+  const numeric = parseFloat(amount || 0);
+  const rate = rates[currency];
+  if (!rate) {
+    console.warn(`⚠️ Unknown currency: ${currency}, leaving unchanged.`);
+    return {
+      usd: numeric,
+      original: { amount: numeric, currency, rate: 1 },
+    };
+  }
+  // Open ER API gives 1 USD = X currency
+  // So to go from foreign → USD, divide
+  const usd = numeric / rate;
+  return {
+    usd: parseFloat(usd.toFixed(2)),
+    original: { amount: numeric, currency, rate },
+  };
+}
 
 /** Extract slug from project URL */
 export function extractSlug(url) {
@@ -14,8 +54,7 @@ export async function loadProjects() {
     const text = await fs.readFile(FILE_PATH, "utf8");
     return JSON.parse(text);
   } catch {
-    // Return empty object if file doesn't exist or is empty
-    return {};
+    return {}; // Start fresh if file missing
   }
 }
 
@@ -29,6 +68,7 @@ export async function saveOrUpdateProjects(apiData) {
   if (!Array.isArray(apiData)) throw new Error("Expected array input");
 
   const existing = await loadProjects();
+  const rates = await loadExchangeRates();
   const now = new Date().toISOString();
   let newProjects = 0;
   let updatedProjects = 0;
@@ -39,65 +79,87 @@ export async function saveOrUpdateProjects(apiData) {
 
     const id = node.id;
     const slug = extractSlug(node.url);
+    const currency = node.pledged?.currency ?? "USD";
 
-    // This is the latest funding data
+    // Normalize pledged to USD
+    const pledgedNorm = normalizeToUSD(
+      node.pledged?.amount ?? 0,
+      currency,
+      rates
+    );
+    const goalNorm = normalizeToUSD(node.goal?.amount ?? 0, currency, rates);
+
+    // Latest funding snapshot
     const fundingSnapshot = {
       timestamp: now,
-      backersCount: node.backersCount || 0,
-      pledged: node.pledged.amount || 0,
-      currency: node.pledged.currency || null,
-      percentFunded: node.percentFunded || 0,
-      deadlineAt: node.deadlineAt || null,
+      backersCount: node.backersCount ?? 0,
+      pledged: pledgedNorm.usd,
+      pledgedOriginal: pledgedNorm.original,
+      percentFunded: node.percentFunded ?? 0,
     };
 
     if (!existing[id]) {
-      // New project
+      // ✅ Create new project entry
       newProjects++;
       existing[id] = {
         id,
         slug,
         url: node.url,
-        name: node.name || "",
-        description: node.description || "",
+        name: node.name ?? "",
+        description: node.description ?? "",
         creator: {
-          name: node.creator?.name || "",
-          url: node.creator?.url || "",
+          name: node.creator?.name ?? "",
+          url: node.creator?.url ?? "",
+          launchedProjects: node.creator?.launchedProjects.totalCount ?? "",
         },
-        fundingHistory: [fundingSnapshot], // Start history with current snapshot
-        tags: {
-          isLaunched: node.isLaunched || false,
-          isProjectWeLove: node.isProjectWeLove || false,
-          isProjectOfTheDay: node.isProjectOfTheDay || false,
-        },
+        category: node.category?.name ?? "",
+        currency,
+        goal: goalNorm.usd,
+        goalOriginal: goalNorm.original,
+        deadlineAt: node.deadlineAt ?? null,
+        launchedAt: node.launchedAt ?? null,
+        isLaunched: node.isLaunched ?? false,
+        isProjectWeLove: node.isProjectWeLove ?? false,
+        isProjectOfTheDay: node.isProjectOfTheDay ?? false,
+        fundingHistory: [fundingSnapshot],
         lastUpdated: now,
       };
     } else {
-      // Update existing project
+      // ✅ Update existing project
       updatedProjects++;
-      const p = existing[id]; //Shorter reference
+      const p = existing[id];
 
-      // Only fill in missing info; don't overwrite good data
-      p.name = p.name || node.name || "";
-      p.description = p.description || node.description || "";
+      // Only fill in missing info (don’t overwrite)
+      p.name ||= node.name ?? "";
+      p.description ||= node.description ?? "";
+      p.category ||= node.category?.name ?? "";
+      p.currency ||= currency;
+      p.deadlineAt ||= node.deadlineAt ?? null;
+      p.launchedAt ||= node.launchedAt ?? null;
+
+      p.isLaunched = node.isLaunched ?? p.isLaunched ?? false;
+      p.isProjectWeLove = node.isProjectWeLove ?? p.isProjectWeLove ?? false;
+      p.isProjectOfTheDay =
+        node.isProjectOfTheDay ?? p.isProjectOfTheDay ?? false;
+
       p.creator = p.creator || {
-        name: node.creator?.name || "",
-        url: node.creator?.url || "",
-      };
-      p.tags = p.tags || {
-        isLaunched: node.isLaunched || false,
-        isProjectWeLove: node.isProjectWeLove || false,
-        isProjectOfTheDay: node.isProjectOfTheDay || false,
+        name: node.creator?.name ?? "",
+        url: node.creator?.url ?? "",
       };
 
-      // Initialize fundingHistory if it's missing (for older data structures)
+      // Update goal if it's missing or zero
+      if (!p.goalUSD && goalNorm.usd > 0) {
+        p.goalUSD = goalNorm.usd;
+        p.goalOriginal = goalNorm.original;
+      }
+
+      // Append funding snapshot only if it changed
       p.fundingHistory = p.fundingHistory || [];
-
-      // Append new funding snapshot *only if data has changed*
-      const lastSnapshot = p.fundingHistory.slice(-1)[0] || {};
+      const last = p.fundingHistory.at(-1) || {};
       if (
-        lastSnapshot.backersCount !== fundingSnapshot.backersCount ||
-        lastSnapshot.pledged !== fundingSnapshot.pledged ||
-        lastSnapshot.percentFunded !== fundingSnapshot.percentFunded
+        last.backersCount !== fundingSnapshot.backersCount ||
+        last.pledged !== fundingSnapshot.pledged ||
+        last.percentFunded !== fundingSnapshot.percentFunded
       ) {
         p.fundingHistory.push(fundingSnapshot);
       }
@@ -106,9 +168,7 @@ export async function saveOrUpdateProjects(apiData) {
     }
   }
 
-  console.log(
-    `Saved/Updated projects: ${newProjects} new, ${updatedProjects} updated.`
-  );
+  console.log(`💾 ${newProjects} new, ${updatedProjects} updated.`);
   await saveProjects(existing);
   return existing;
 }

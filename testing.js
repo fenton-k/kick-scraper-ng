@@ -1,71 +1,73 @@
+import { graphql } from "graphql";
 import { graphqlRequest } from "./graphql.js";
-import { saveOrUpdateProjects } from "./files.js";
-import { sleep } from "./utils.js";
+import { closeBrowser } from "./graphql.js";
 import fs from "fs/promises";
 import path from "path";
 
-const queryPath = path.resolve("./queries/combined.gql"); // your new single query file
+const queryPath = path.resolve("./queries/query.gql");
 const query = await fs.readFile(queryPath, "utf8");
 
-const BATCH_SIZE = 50; // how many projects to save at once
-const MIN_DELAY = 1000; // polite delay between pages
-const MAX_DELAY = 3000;
-
-async function runScraper(maxPages = 100) {
-  console.log("🚀 Fetching recommended projects...");
-
-  let nextCursor = null;
-  let batch = [];
-  let totalProjects = 0;
-  let pageCount = 0;
-
-  do {
-    // --- Fetch a page of projects ---
-    const data = await graphqlRequest(query, { nextCursor });
-    const edges = data?.data?.projects?.edges ?? [];
-    const pageInfo = data?.data?.projects?.pageInfo ?? {};
-
-    if (!edges.length) {
-      console.warn("⚠️ No projects found on this page.");
-      break;
+let query5 = `query ($nextCursor: String) {
+  projects(first: 5, after: $nextCursor, state: SUSPENDED, sort: NEWEST) {
+    totalCount
+    edges {
+      node {
+        id
+        slug
+        goal {
+          amount
+        }
+        category {
+          name
+        }
+      }
     }
 
-    // --- Merge into our working batch ---
-    batch.push(...edges);
-    totalProjects += edges.length;
-
-    console.log(
-      `📦 Fetched ${edges.length} projects (total: ${totalProjects})`
-    );
-
-    // --- Save when we hit batch size ---
-    if (batch.length >= BATCH_SIZE) {
-      await saveOrUpdateProjects(batch);
-      console.log(`💾 Saved ${batch.length} projects to disk.`);
-      batch = [];
+    pageInfo {
+      hasNextPage
+      endCursor
     }
-
-    // --- Prepare next page ---
-    nextCursor = pageInfo.hasNextPage ? pageInfo.endCursor : null;
-    pageCount++;
-
-    if (pageCount >= maxPages) {
-      console.log(`🛑 Reached max page limit (${maxPages}).`);
-      break;
-    }
-
-    // --- Polite random delay ---
-    const delay = MIN_DELAY + Math.random() * (MAX_DELAY - MIN_DELAY);
-    await sleep(delay);
-  } while (nextCursor);
-
-  // --- Save any leftovers ---
-  if (batch.length > 0) {
-    await saveOrUpdateProjects(batch);
-    console.log(`💾 Saved final ${batch.length} remaining projects.`);
   }
+}
+`;
 
-  console.log(`✅ Done. Total projects fetched: ${totalProjects}`);
+let query2 = `query ($slug: String!) {
+  project(slug: $slug) {
+    id
+    creator {
+      name
+      launchedProjects {
+        totalCount
+      }
+    }
+    state
+    category {
+      name
+    }
+  }
+}
+`;
+
+let data;
+
+try {
+  data = await graphqlRequest(query5, { nextCursor: null });
+  console.log(JSON.stringify(data));
+} catch (err) {
+  console.error("Scraper error: ", err);
+} finally {
+  await closeBrowser();
 }
 
-runScraper(1);
+let data2;
+
+try {
+  data2 = await graphqlRequest(query2, {
+    slug: "luxmea/nuo-3d-mask",
+  });
+  console.log(JSON.stringify(data2));
+} catch (err) {
+  console.error("Scraper error:", err);
+} finally {
+  await closeBrowser();
+}

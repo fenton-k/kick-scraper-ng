@@ -7,12 +7,19 @@ query ($nextCursor: String) {
         slug
         url
         percentFunded
+        category {
+          name
+        }
         pledged {
           amount
           currency
         }
+        goal {
+          amount
+        }
         description
         backersCount
+        launchedAt
         deadlineAt
         isLaunched
         isProjectOfTheDay
@@ -34,7 +41,6 @@ query ($nextCursor: String) {
           }
         }
       }
-      cursor
     }
 
     pageInfo {

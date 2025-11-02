@@ -1,3 +1,4 @@
+import { fileURLToPath } from "url";
 import { graphqlRequest } from "./graphql.js";
 import { saveOrUpdateProjects } from "./files.js";
 import { closeBrowser } from "./graphql.js";
@@ -44,7 +45,6 @@ export async function fetchProjects({
     if (batch.length >= batchSize) {
       await saveOrUpdateProjects(batch);
       batch = [];
-      console.log(`💾 Saved batch of ${batchSize}`);
     }
 
     pageCount++;
@@ -68,19 +68,21 @@ export async function fetchProjects({
   return total;
 }
 
-// Default: run full rebuild if called directly
-if (import.meta.url === `file://${process.argv[1]}`) {
-  fetchProjects({ maxPages: 10 })
+// Convert import.meta.url to a regular file path
+const __filename = fileURLToPath(import.meta.url);
+
+// Run the scraper only when called directly (not when imported)
+if (process.argv[1] === __filename) {
+  fetchProjects({ maxPages: 5 })
     .then(() => closeBrowser())
     .catch(async (err) => {
       console.error("Scraper error:", err);
       await closeBrowser();
     });
 }
-
-fetchProjects({ maxPages: 10 })
-  .then(() => closeBrowser())
-  .catch(async (err) => {
-    console.error("Scraper error:", err);
-    await closeBrowser();
-  });
+// fetchProjects({ maxPages: 10 })
+//   .then(() => closeBrowser())
+//   .catch(async (err) => {
+//     console.error("Scraper error:", err);
+//     await closeBrowser();
+//   });
