@@ -155,14 +155,7 @@ export async function saveOrUpdateProjects(apiData) {
 
       // Append funding snapshot only if it changed
       p.fundingHistory = p.fundingHistory || [];
-      const last = p.fundingHistory.at(-1) || {};
-      if (
-        last.backersCount !== fundingSnapshot.backersCount ||
-        last.pledged !== fundingSnapshot.pledged ||
-        last.percentFunded !== fundingSnapshot.percentFunded
-      ) {
-        p.fundingHistory.push(fundingSnapshot);
-      }
+      p.fundingHistory.push(fundingSnapshot);
 
       p.lastUpdated = now;
     }
