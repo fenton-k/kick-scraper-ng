@@ -34,6 +34,14 @@ async function getPage() {
         "--no-sandbox",
         "--disable-setuid-sandbox",
         "--disable-blink-features=AutomationControlled",
+	"--disable-dev-shm-usage",
+        "--disable-gpu",
+        "--single-process",
+        "--no-zygote",
+        "--renderer-process-limit=1",
+        "--js-flags=--max-old-space-size=64",
+        "--disable-features=IsolateOrigins,site-per-process",
+        "--disable-site-isolation-trials",
       ],
     });
 
